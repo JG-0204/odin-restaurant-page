@@ -1,5 +1,1 @@
-/******/ (() => { // webpackBootstrap
-var __webpack_exports__ = {};
-
-/******/ })()
-;
+(()=>{"use strict";document.querySelector("#content").append(function(){const e=document.createElement("header"),t=document.createElement("h1");t.textContent="Baryo-Fiesta",t.classList.add("logo");const n=document.createElement("button");return n.classList.add("show-nav"),n.innerHTML='<i class="material-icons">menu</i>',e.append(t,function(){const e=document.createElement("nav");e.classList.add("navbar");const t=document.createElement("ul");t.classList.add("nav-links");for(let e=0;e<3;e++){const e=document.createElement("button");e.classList.add("link"),t.appendChild(e)}const n=Array.from(t.children);return n[0].textContent="Home",n[1].textContent="Menu",n[2].textContent="Contact",e.appendChild(t),e}(),n),e}(),function(){const e=document.createElement("main"),t=document.createElement("div");t.classList.add("home");const n=document.createElement("p");n.classList.add("description"),n.textContent="Baryo-Fiesta offers an authentic Filipino dining experience.";const o=document.createElement("button");return o.textContent="See Menu",o.classList.add("btn-menu"),t.append(n,o),e.appendChild(t),e}(),function(){const e=document.createElement("footer"),t=document.createElement("p");return t.textContent="Photo by Danis Lou on Unsplash",e.appendChild(t),e}())})();
