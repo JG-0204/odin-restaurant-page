@@ -26,3 +26,18 @@ export default function switchTab(tab) {
   main.remove();
   container.append(tab);
 }
+
+const showNav = document.querySelector('.show-nav');
+
+function toggleNav() {
+  const links = document.querySelector('.nav-links');
+  if (links.style.display === 'none') {
+    links.style.display = 'flex';
+    showNav.innerHTML = '<i class="material-icons">close</i>';
+  } else {
+    links.style.display = 'none';
+    showNav.innerHTML = '<i class="material-icons">menu</i>';
+  }
+}
+
+showNav.addEventListener('click', toggleNav);
