@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  height: 85dvh;
+}
+
+.description {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  max-width: 20ch;
+  color: #fd8e58;
+  color: #e6e7ec;
+  text-align: center;
+}
+
+.btn-menu {
+  font-size: clamp(0.9rem, 3vw, 1rem);
+  padding: 1em 1.5em;
+  border: 2px solid #ecebe9;
+  color: #e6e7ec;
+  background-color: #fd8e58;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-menu:hover {
+  background-color: #b66741;
+}
