@@ -1,0 +1,168 @@
+@import url(./home.css);
+@import url(./menu.css);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  min-height: 100dvh;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+.logo {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  color: #fd8e58;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link {
+  font-size: clamp(0.9rem, 5vw, 1rem);
+  color: #fd8e58;
+  background-color: transparent;
+  border: none;
+}
+
+.link:hover {
+  color: #b66741;
+}
+
+.show-nav {
+  position: absolute;
+  right: 3%;
+  display: none;
+  color: #e6e7ec;
+  border: none;
+  background-color: #fd8e58;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 1%;
+}
+
+footer p {
+  color: white;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .menu img {
+    display: none;
+  }
+
+  .dishes div {
+    width: 100%;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #fd8e58;
+    width: 100dvw;
+    position: fixed;
+  }
+
+  .logo {
+    color: #e6e7ec;
+  }
+
+  .nav-links {
+    margin-top: 25px;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    right: 0;
+    gap: 0px;
+  }
+
+  .link {
+    background-color: #fd8e58;
+    color: #e6e7ec;
+    width: 100%;
+    padding: 0.5em;
+  }
+
+  .link:hover {
+    background-color: #b66741;
+    color: #e6e7ec;
+  }
+
+  .show-nav {
+    display: block;
+  }
+
+  .show-nav:hover {
+    scale: 1.2;
+  }
+
+  .home {
+    padding-top: 15dvh;
+  }
+
+  .menu {
+    padding-top: 200px;
+    border-radius: 0;
+    padding-inline: 1.5rem;
+  }
+}
