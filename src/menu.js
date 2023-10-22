@@ -1,5 +1,6 @@
 export default function createMenu() {
   const main = document.createElement('main');
+  main.classList.add('main');
 
   const menu = document.createElement('div');
   menu.classList.add('menu');
@@ -38,7 +39,7 @@ function createMainDish() {
     createDish(
       'Yakitori',
       '$1.00',
-      'ysmall skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce',
+      'small skewers of bite-size chicken pieces seasoned with salt or brushed with a sauce',
     ),
     createDish(
       'Tempura',
