@@ -1,5 +1,9 @@
+import switchTab from './index';
+import createMenu from './menu';
+
 export default function createHome() {
   const main = document.createElement('main');
+  main.classList.add('main');
 
   const home = document.createElement('div');
   home.classList.add('home');
@@ -9,13 +13,20 @@ export default function createHome() {
   restoDescription.textContent =
     'Baryo-Fiesta offers an authentic Filipino dining experience.';
 
-  const menuButton = document.createElement('button');
-  menuButton.textContent = 'See Menu';
-  menuButton.classList.add('btn-menu');
-
-  home.append(restoDescription, menuButton);
+  home.append(restoDescription, createMenuButton('See Menu', 'btn-menu'));
 
   main.appendChild(home);
 
   return main;
+}
+
+function createMenuButton(btnText, btnClass) {
+  const button = document.createElement('button');
+  button.classList.add(btnClass);
+  button.textContent = btnText;
+  button.addEventListener('click', () => {
+    switchTab(createMenu());
+  });
+
+  return button;
 }

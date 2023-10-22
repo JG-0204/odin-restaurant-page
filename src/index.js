@@ -21,7 +21,7 @@ function listenForTabSwitch() {
   });
 }
 
-function switchTab(tab) {
+export default function switchTab(tab) {
   const main = document.querySelector('main');
   main.remove();
   container.append(tab);
