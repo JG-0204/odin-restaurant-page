@@ -1,5 +1,6 @@
 @import url(./home.css);
 @import url(./menu.css);
+@import url(./contact.css);
 
 * {
   box-sizing: border-box;
@@ -100,6 +101,21 @@ footer p {
   .dishes div {
     width: 100%;
   }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  .location-container {
+    width: 100%;
+  }
 }
 
 /* lg */
@@ -129,6 +145,7 @@ footer p {
 
   .nav-links {
     margin-top: 25px;
+    border-top: none;
     position: fixed;
     flex-direction: column;
     width: 100%;
@@ -164,5 +181,13 @@ footer p {
     padding-top: 200px;
     border-radius: 0;
     padding-inline: 1.5rem;
+  }
+
+  form {
+    width: 98%;
+  }
+
+  .contact-main {
+    padding-top: 200px;
   }
 }
