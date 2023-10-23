@@ -1,6 +1,7 @@
 import initialLoad from './page-load';
 import createHome from './home';
 import createMenu from './menu';
+import createContact from './contact';
 
 const container = document.querySelector('#content');
 
@@ -10,13 +11,12 @@ listenForTabSwitch();
 
 function listenForTabSwitch() {
   const tabs = Array.from(document.querySelectorAll('.link'));
-  console.log(container.children);
 
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       if (tab.textContent === 'Home') switchTab(createHome());
       if (tab.textContent === 'Menu') switchTab(createMenu());
-      if (tab.textContent === 'Contact') alert('Contact');
+      if (tab.textContent === 'Contact') switchTab(createContact());
     });
   });
 }
