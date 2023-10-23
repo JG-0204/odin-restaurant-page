@@ -1,0 +1,90 @@
+.contact-main {
+  background-color: #b66741c1;
+  margin-bottom: 50px;
+  border-radius: 1rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  color: #e6e7ec;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+}
+
+form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 45%;
+  padding: 1rem;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.2rem;
+  color: #e6e7ec;
+}
+
+input,
+textarea {
+  border: 2px solid #ecebe9;
+}
+
+label input {
+  font-size: 1.3rem;
+  padding: 0.5em 1em;
+}
+
+textarea {
+  resize: none;
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+
+.btn-submit {
+  border: 2px solid #ecebe9;
+  color: #e6e7ec;
+  background-color: #fd8e58;
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+
+.btn-submit:hover {
+  background-color: #b66741;
+}
+
+.location-container {
+  /* padding-left: 4rem; */
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.resto-hours {
+  color: #ecebe9;
+  font-size: 1.3rem;
+}
+
+.resto-number {
+  color: #ecebe9;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.location-container iframe {
+  margin: 0 auto;
+  width: 90%;
+}
