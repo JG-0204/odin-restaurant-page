@@ -3,7 +3,6 @@ import createMenu from './menu';
 
 export default function createHome() {
   const main = document.createElement('main');
-  main.classList.add('main');
 
   const home = document.createElement('div');
   home.classList.add('home');
