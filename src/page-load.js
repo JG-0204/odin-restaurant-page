@@ -8,7 +8,7 @@ function createHeader() {
   const header = document.createElement('header');
 
   const logo = document.createElement('h1');
-  logo.textContent = 'Baryo-Fiesta';
+  logo.textContent = 'Orenji';
   logo.classList.add('logo');
 
   const showMenuButton = document.createElement('button');
@@ -47,7 +47,7 @@ function createFooter() {
   const footer = document.createElement('footer');
 
   const p = document.createElement('p');
-  p.textContent = 'Photo by Danis Lou on Unsplash';
+  p.textContent = 'All photos used is on Unsplash';
 
   footer.appendChild(p);
 

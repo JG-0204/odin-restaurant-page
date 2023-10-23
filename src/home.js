@@ -10,7 +10,7 @@ export default function createHome() {
   const restoDescription = document.createElement('p');
   restoDescription.classList.add('description');
   restoDescription.textContent =
-    'Baryo-Fiesta offers an authentic Filipino dining experience.';
+    'Enjoy authentic and traditional Japanese flavors at Orenji.';
 
   home.append(restoDescription, createMenuButton('See Menu', 'btn-menu'));
 
