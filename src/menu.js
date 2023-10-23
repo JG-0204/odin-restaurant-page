@@ -1,6 +1,5 @@
 export default function createMenu() {
   const main = document.createElement('main');
-  main.classList.add('main');
 
   const menu = document.createElement('div');
   menu.classList.add('menu');
@@ -147,43 +146,3 @@ function createDish(name, price, description) {
 
   return dish;
 }
-
-/* <section class="menu">
-<h2 class="dish-type">Main Dishes</h2>
-<div class="main-dish dishes">
-  <img src="./images/dish.png" alt="a japanese dish" />
-  <div>
-    <section class="dish">
-      <div>
-        <h3 class="dish-name">Sushi Platter</h3>
-        <p class="dish-price">$1.00</p>
-      </div>
-      <p class="dish-description">A plate of assorted sushi</p>
-    </section>
-    <section class="dish">
-      <div>
-        <h3 class="dish-name">Teriyaki</h3>
-        <p class="dish-price">$1.00</p>
-      </div>
-      <p class="dish-description">deep-fried chicken</p>
-    </section>
-    <section class="dish">
-      <div>
-        <h3 class="dish-name">Miso Bowl</h3>
-        <p class="dish-price">$1.00</p>
-      </div>
-      <p class="dish-description">soup cooked in miso</p>
-    </section>
-    <section class="dish">
-      <div>
-        <h3 class="dish-name">Yakitori</h3>
-        <p class="dish-price">$1.00</p>
-      </div>
-      <p class="dish-description">
-        small skewers of bite-size chicken pieces seasoned with salt
-        or brushed with a sauce, or tare, of mirin rice wine, soy
-        sauce, sake alcohol, and sugar.
-      </p>
-    </section>
-  </div>
-</div> */
