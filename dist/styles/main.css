@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  /* border: 1px solid red; */
+  z-index: 1;
   margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
@@ -41,6 +41,8 @@ header {
 .logo {
   font-size: clamp(1.8rem, 5vw, 2.5rem);
   color: #fd8e58;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
 }
 
 .nav-links {
@@ -51,6 +53,8 @@ header {
 
 .link {
   font-size: clamp(0.9rem, 5vw, 1rem);
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
   color: #fd8e58;
   background-color: transparent;
   border: none;
@@ -76,6 +80,7 @@ footer {
 }
 
 footer p {
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 0.9rem;
   font-style: italic;
@@ -179,7 +184,6 @@ footer p {
 
   .menu {
     padding-top: 200px;
-    border-radius: 0;
     padding-inline: 1.5rem;
   }
 

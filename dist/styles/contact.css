@@ -15,6 +15,8 @@
 
 .contact-heading {
   font-size: clamp(1.4rem, 4vw, 2rem);
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
   color: #e6e7ec;
   font-weight: bold;
   text-align: center;
@@ -34,18 +36,17 @@ form label {
   flex-direction: column;
   gap: 10px;
   font-size: clamp(1rem, 4vw, 1.2rem);
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
   color: #e6e7ec;
 }
 
 input,
 textarea {
   border: 2px solid #ecebe9;
-}
-
-label input,
-label textarea {
   font-size: clamp(0.8rem, 3vw, 1.1rem);
   padding: 0.5em 1em;
+  font-family: 'Roboto Mono', monospace;
 }
 
 textarea {
@@ -53,10 +54,11 @@ textarea {
 }
 
 .btn-submit {
+  font-family: 'Rubik', sans-serif;
   border: 2px solid #ecebe9;
   color: #e6e7ec;
   background-color: #fd8e58;
-  font-size: clamp(0.9rem, 4vw, 1rem);
+  font-size: clamp(1rem, 4vw, 1.2rem);
   padding: 0.5em;
 }
 
@@ -77,6 +79,7 @@ textarea {
 .resto-number {
   color: #ecebe9;
   font-size: clamp(0.9rem, 4vw, 1.3rem);
+  font-family: 'Roboto Mono', monospace;
 }
 
 .resto-number {

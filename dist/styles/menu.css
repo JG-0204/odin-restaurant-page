@@ -24,12 +24,15 @@
   color: #fd8e58;
   border-block: 3px dashed #ecebe9;
   padding-block: 1em;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
 }
 
 .dishes {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .dishes div {
