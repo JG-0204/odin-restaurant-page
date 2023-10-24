@@ -8,7 +8,7 @@ function createHeader() {
   const header = document.createElement('header');
 
   const logo = document.createElement('h1');
-  logo.textContent = 'Orenji';
+  logo.textContent = 'ORENJi';
   logo.classList.add('logo');
 
   const showMenuButton = document.createElement('button');
