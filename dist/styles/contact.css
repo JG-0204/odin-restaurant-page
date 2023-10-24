@@ -2,7 +2,7 @@
 
 .contact-main {
   background-color: #b66741c1;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   border-radius: 1rem;
   animation: scale 0.3s ease-in;
 }
