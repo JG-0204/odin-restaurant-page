@@ -1,5 +1,6 @@
 export default function createMenu() {
   const main = document.createElement('main');
+  main.classList.add('menu-main');
 
   const menu = document.createElement('div');
   menu.classList.add('menu');
