@@ -1,7 +1,10 @@
+@import url(./keyframes.css);
+
 .contact-main {
   background-color: #b66741c1;
   margin-bottom: 50px;
   border-radius: 1rem;
+  animation: scale 0.3s ease-in;
 }
 
 .contact {
@@ -39,22 +42,21 @@ textarea {
   border: 2px solid #ecebe9;
 }
 
-label input {
-  font-size: clamp(0.8rem, 4vw, 1.3rem);
+label input,
+label textarea {
+  font-size: clamp(0.8rem, 3vw, 1.1rem);
   padding: 0.5em 1em;
 }
 
 textarea {
   resize: none;
-  font-size: clamp(0.8rem, 4vw, 1.3rem);
-  padding: 0.5em;
 }
 
 .btn-submit {
   border: 2px solid #ecebe9;
   color: #e6e7ec;
   background-color: #fd8e58;
-  font-size: clamp(1rem, 4vw, 1.3rem);
+  font-size: clamp(0.9rem, 4vw, 1rem);
   padding: 0.5em;
 }
 

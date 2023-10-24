@@ -1,3 +1,10 @@
+@import url(./keyframes.css);
+
+.menu-main {
+  margin-bottom: 50px;
+  animation: scale 0.3s ease-in;
+}
+
 .menu {
   background-color: #b66741c1;
   border-radius: 1rem;
