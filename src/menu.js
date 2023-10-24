@@ -31,7 +31,7 @@ function createMainDish() {
   mainDish.classList.add('main-dish', 'dishes');
 
   const img = document.createElement('img');
-  img.src = '/images/dish.png';
+  img.src = './images/dish.png';
 
   const container = document.createElement('div');
 
@@ -68,7 +68,7 @@ function createDesserts() {
   desserts.classList.add('desserts', 'dishes');
 
   const img = document.createElement('img');
-  img.src = '/images/dessert.png';
+  img.src = './images/dessert.png';
 
   const container = document.createElement('div');
 
@@ -100,7 +100,7 @@ function createDrinks() {
   drinks.classList.add('drinks', 'dishes');
 
   const img = document.createElement('img');
-  img.src = '/images/drinks.png';
+  img.src = './images/drinks.png';
 
   const container = document.createElement('div');
 
