@@ -15,7 +15,7 @@
 }
 
 .description {
-  font-size: clamp(2.3rem, 4vw, 3.5rem);
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
   font-weight: bold;
   max-width: 20ch;
   color: #fd8e58;
@@ -25,7 +25,7 @@
 }
 
 .btn-menu {
-  font-size: clamp(0.9rem, 3vw, 1rem);
+  font-size: clamp(0.5rem, 3vw, 1rem);
   padding: 1em 1.5em;
   border: 2px solid #ecebe9;
   color: #e6e7ec;
