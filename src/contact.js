@@ -43,13 +43,13 @@ function createForm() {
   const name = createInput('Name', 'text', 'user-name', false);
   const email = createInput('Email', 'email', 'user-email', true);
   const textArea = createTextArea('Message Us', 15, 50, 'message-area');
-  const submitButton = createSubmitButton('Submit', 'btn-submit');
+  const submitButton = createSubmitButton('Submit', 'btn-submit', form);
 
   form.append(name, email, textArea, submitButton);
   return form;
 }
 
-function createSubmitButton(text, btnClass) {
+function createSubmitButton(text, btnClass, form) {
   const button = document.createElement('button');
   button.classList.add(btnClass);
   button.textContent = text;
